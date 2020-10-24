@@ -1,5 +1,5 @@
 
-Welcome to my "Python Projects" section where I learn Python by building projects on https://hyperskill.org/ .
+Welcome to my "Python Projects" repository where I learn Python by building projects at hyperskill.org.
 
 
 My Python Projects are ordered from easy to nightmare(very hard). In every project file you will find project description/overview and project implementation.
@@ -9,5 +9,7 @@ I hope that you will enjoy in exploring my code and what I did.
 
 Have a nice day! :D ♡
 
+NOTES:
 
+EVERYTHING IS SUBDUE TO CHANGES
 PLEASE DO NOTIFY ME IF YOU CAN'T ACCESS ANY OF THE LINKS
