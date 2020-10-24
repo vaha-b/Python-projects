@@ -1,0 +1,11 @@
+(....still in development so some ....)
+
+Welcome to my "Python Projects" section where I learn Python by building projects on hyperskill.com .
+
+My Python Projects are ordered from easy to nightmare(very hard). In every project file you will find project description/overview and project implementation.
+To make things short and simple in file descriptions, I put links. So I hope that you'll check the links and read what each project is about and which topics project is covering. 
+
+I hope that you will enjoy in exploring my code and what I did.     ..nice day! :D ♡
+
+
+PLEASE DO NOTIFY ME IF YOU CAN'T ACCESS ANY OF THE LINKS

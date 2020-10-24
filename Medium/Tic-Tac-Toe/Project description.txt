@@ -1,0 +1,15 @@
+https://hyperskill.org/projects/73
+
+About
+
+Everybody remembers this paper-and-pencil game from childhood: Tic-Tac-Toe, also known as Noughts and crosses or Xs and Os. A single mistake usually costs you the game, but thankfully it is simple enough that most players discover the best strategy quickly. Let’s program Tic-Tac-Toe and get playing!
+
+Stage 1: https://hyperskill.org/projects/73/stages/399/implement
+
+Stage 2: https://hyperskill.org/projects/73/stages/400/implement
+
+Stage 3: https://hyperskill.org/projects/73/stages/401/implement
+
+Stage 4: https://hyperskill.org/projects/73/stages/402/implement
+
+Stage 5: https://hyperskill.org/projects/73/stages/403/implement
