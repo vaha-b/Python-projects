@@ -1,5 +1,8 @@
 https://hyperskill.org/projects/78?
 
+THIS PROJECT IS MY FAVORITE PROJECT SINCE IT'S AN ADVANCED VERSION OF ROCK, PAPER, SCISSORS.
+JUST LOOK AT THE LAST STAGE DESCRIPTION: https://hyperskill.org/projects/78/stages/435/preview
+
 About:
 
 In this project I coded a Rock-Paper-Scissors-Lizard-Spock game, a more advanced version of Rock-Paper-Scissors, which can be played against the computer.

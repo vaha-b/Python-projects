@@ -1,3 +1,5 @@
+# https://hyperskill.org/projects/109/stages/591/implement#solutions
+
 import random
 
 
