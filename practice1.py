@@ -1,21 +1,8 @@
-class Plant:
-    def __init__(self, spec):
-        self.spec = spec
+numbers = [8, 11, 15, 15, 15, 12]
+num = max(numbers)
 
+for i in range(0, len(numbers)):
+    if numbers[i] == num:
+        index = i
 
-class Cactus(Plant):
-    pass
-
-
-basil = Plant("Ocimum basilicum")
-
-opuntia = Cactus("Opuntia vulgaris")
-
-
-print(type(basil) == object)
-print(type(basil) == Cactus)
-print(isinstance(opuntia, Plant))
-print(isinstance(opuntia, object))
-print(isinstance(basil, Plant))
-print(type(opuntia) == Cactus)
-print(type(opuntia) == Plant)
+print(index)
