@@ -1,4 +1,4 @@
-# Please don't judge my code here
+# NOT OFFICIAL VERSION. IT'S A MESS
 
 import requests
 from bs4 import BeautifulSoup

@@ -1,3 +1,5 @@
+# NOT OFFICIAL VERSION. IT'S A MESS.
+
 import requests
 from bs4 import BeautifulSoup
 
