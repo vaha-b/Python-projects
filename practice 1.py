@@ -1,11 +1,5 @@
-def tallest_people(**kwargs):
-    max_key = max(kwargs, key=kwargs.get)
-    sort = sorted(kwargs.items())
+amount = int(input())
 
-    print(sort)
-
-
-people = {"Jackie": 176, "Wilson": 185, "Saersha": 165, "Roman": 185, "Abram": 169
-          }
-
-tallest_people(**people)
+print(f"I have {amount} conicoins.")
+print(f"{amount} conicoins cost {42*100} dollars.")
+print("I am rich! Yippee!")
