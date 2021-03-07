@@ -1,5 +1,8 @@
-amount = int(input())
+print("""#*John Lennon*was one of The Beatles.
+Here are the songs he wrote I like the most:
 
-print(f"I have {amount} conicoins.")
-print(f"{amount} conicoins cost {42*100} dollars.")
-print("I am rich! Yippee!")
+Imagine
+Norwegian Wood
+Come Together
+In My Life
+Hey Jude (that was McCartney)""")
