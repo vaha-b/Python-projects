@@ -1,4 +1,4 @@
-LAST UPDATE: Finished Multilingual Online Translator Project
+LAST UPDATE: Added some new stages and projects into unfinished projects. Worked with requests, BeautifulSoup4 and json modules.
 
 
 Welcome to my "Python Projects" where I try to become a Python Developer by building projects at hyperskill.org.
