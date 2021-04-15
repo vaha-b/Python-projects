@@ -1,0 +1,19 @@
+About Hangman Project at: https://hyperskill.org/projects/69
+
+Hangman is a popular yet grim puzzle game. A cruel computer hides a word from you, which you try to guess letter by letter. If you fail, you'll be “hanged”. If you win, you'll survive. You’ve probably played the game at least once or twice.
+
+Stage 1: https://hyperskill.org/projects/69/stages/372/implement
+
+Stage 2: https://hyperskill.org/projects/69/stages/373/implement
+
+Stage 3: https://hyperskill.org/projects/69/stages/374/implement
+
+Stage 4: https://hyperskill.org/projects/69/stages/375/implement
+
+Stage 5: https://hyperskill.org/projects/69/stages/376/implement
+
+Stage 6: https://hyperskill.org/projects/69/stages/377/implement
+
+Stage 7: https://hyperskill.org/projects/69/stages/378/implement
+
+Stage 8: https://hyperskill.org/projects/69/stages/379/implement
