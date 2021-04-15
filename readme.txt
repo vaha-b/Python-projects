@@ -1,4 +1,4 @@
-LAST UPDATE: Added some new stages and projects into unfinished projects. 
+LAST UPDATE: Added new stages.
 
 
 Welcome to my "Python Projects" where I try to become a Python Developer by building projects at hyperskill.org.
