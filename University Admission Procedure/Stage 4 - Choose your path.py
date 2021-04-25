@@ -4,11 +4,27 @@
 # Stage description
 # https://hyperskill.org/projects/163/stages/847/implement
 
-n = int(input())
-m = int(input())
-applicants = [input().split() for _ in range(n)]
-successful_applicants = sorted(applicants, key=lambda x: (-float(x[2]), x[0]))
 
-print('Successful applicants:')
-for i in range(m):
-    print(*successful_applicants[i][0:2])
+num = int(input())
+applicants = []
+biotech = []
+chemistry = []
+engineering = []
+mathematics = []
+physics = []
+
+
+with open("University Admission Procedure\Stage 4 - Applicant_list_example.txt", "r") as f:
+    for i in f:
+        student = list(i.strip().split(" "))
+        student = [student[0] + " " + student[1], *student[2:]]
+        applicants.append(student)
+
+    # Sorts applicants by gdp in descending ord.
+    applicants = sorted(applicants, key=lambda x: -float(x[1]))
+    print(applicants)
+
+for applicant in applicants:
+    for subject in applicant:
+        if subject == "Engineering":
+            if len(engineering) != num:
