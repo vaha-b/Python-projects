@@ -1,6 +1,6 @@
 # Python Projects
 
-Welcome to my "Python Projects" where I try to become a Python Developer by building projects at [hyperskill.org](https//:hyperskill.org).
+Welcome to my "Python Projects" where I try to become a Python Developer by building projects at [hyperskill.org](https://hyperskill.org/).
 
 My projects are ordered from easy to nightmare(very hard).
 In every project, you will find project description and project implementation link where you can read what each project is about and which topics it contains.
