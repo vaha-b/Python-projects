@@ -1,3 +1,7 @@
+# About the project:
+# https://hyperskill.org/projects/68?track=2
+
+# Stage description
 # https://hyperskill.org/projects/68/stages/366/implement
 
 print("Starting to make a coffee")

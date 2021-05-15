@@ -1,3 +1,7 @@
+# About the project:
+# https://hyperskill.org/projects/68?track=2
+
+# Stage description
 # https://hyperskill.org/projects/69/stages/375/implement
 
 print("The coffe machine has:")

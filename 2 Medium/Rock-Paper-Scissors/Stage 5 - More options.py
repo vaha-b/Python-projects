@@ -1,4 +1,8 @@
-# https://hyperskill.org/projects/78/stages/435/preview
+# About the project:
+# https://hyperskill.org/projects/78
+
+# Stage description:
+# https://hyperskill.org/projects/78/stages/435/
 
 import random
 import sys

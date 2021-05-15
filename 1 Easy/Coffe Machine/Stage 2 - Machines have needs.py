@@ -1,3 +1,7 @@
+# About the project:
+# https://hyperskill.org/projects/68?track=2
+
+# Stage description
 # https://hyperskill.org/projects/68/stages/367/implement
 
 water = int(input("Write how many ml of water the coffe machine has: "))

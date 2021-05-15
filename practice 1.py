@@ -1,14 +1,20 @@
-print('robot'.replace("", " "))
 
 # applicants = [['vaha', 11.3], ['ajd aa', 11.2],
 #               ['ajd ba', 11.2], ['mir', 10.1]]
 
-# applicants = [['Mira Riley', '3.11', 'Chemistry', 'Biotech', 'Mathematics'], [
-#     'Loura Macansh', '2.01', 'Engineering', 'Mathematics', 'Physics']]
+applicants = [['Jermine', 'Brunton', 84, 'Physics'], ['Uzma', 'Naysmythe', 94, 'Chemistry'], [
+    'Kentrell', 'Hillhouse', 42, 'Mathematics'], ['Sang', 'Muldoon', 84, 'Physics'], ['Uzma', 'Braithwaite', 94, 'Physics'], ]
 
-# successful_applicants = sorted(
-#     applicants, key=lambda x: (float(x[1])))
-# print(successful_applicants)
+# applicants = sorted(applicants, key=lambda x: (-x[2], x[0], x[1]))
+applicants.pop()
+
+text = [["Glitch", "is", "a", "minor", "problem", "that", "causes", "a", "temporary", "setback"],
+        ["Ephemeral", "lasts", "one", "day", "only"],
+        ["Accolade", "is", "an", "expression", "of", "praise"]]
+
+num = 2
+text.pop(num)
+print(text)
 
 # successful_applicants = sorted(
 #     successful_applicants, key=lambda x: (x[1], x[0]))

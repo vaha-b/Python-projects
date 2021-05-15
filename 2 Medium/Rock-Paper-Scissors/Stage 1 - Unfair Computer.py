@@ -1,4 +1,8 @@
-# Stage 1: https://hyperskill.org/projects/78/stages/431/implement
+# About the project:
+# https://hyperskill.org/projects/78
+
+# Stage description:
+# # https://hyperskill.org/projects/78/stages/431/implement
 
 user_input = input()
 

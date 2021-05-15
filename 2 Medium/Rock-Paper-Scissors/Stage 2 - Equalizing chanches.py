@@ -1,4 +1,10 @@
+# About the project:
+# https://hyperskill.org/projects/78
+
+# Stage description:
 # https://hyperskill.org/projects/78/stages/432/implement
+
+
 # I made two solutions
 
 from random import choice
