@@ -1,4 +1,4 @@
-# [Python Projects](https://github.com/vaha-b/Python-projects)
+# Python Projects
 
 Welcome to my "Python Projects" where I try to become a Python Developer by building projects at [hyperskill.org](https//:hyperskill.org).
 
