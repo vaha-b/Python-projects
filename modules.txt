@@ -1,4 +1,4 @@
-My Python modules:
+My modules:
 
 import itertools
 import json
@@ -9,6 +9,7 @@ from bs4 import BeautifulSoup
 from collections import defaultdict
 
 
+Must learn:
 import colorama
 import datetime
 import functools
