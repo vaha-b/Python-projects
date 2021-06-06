@@ -1,4 +1,3 @@
-My Python modules:
 
 import itertools
 import json
