@@ -12,7 +12,7 @@ Have a nice day! :D ♡
 
 About hyperskill:
 
-- Hyperskill is JetBrains Academy's paid educational platform for future professionals with the opportunity to learn theory and practice by programming their own working applications.
+- Hyperskill is a JetBrains Academy's paid educational platform for future professionals with the opportunity to learn theory and practice by programming their own working applications.
 
 - While most of the learning is happening online on hyperskill.org, some parts of the service are accessible only via JetBrains IDEs.
 
