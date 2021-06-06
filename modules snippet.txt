@@ -1,0 +1,78 @@
+My Python modules:
+
+import itertools
+import json
+import re
+import requests
+
+from bs4 import BeautifulSoup
+from collections import defaultdict
+
+
+import colorama
+import datetime
+import functools
+import nltk
+import operator
+import os
+import sys
+import time
+
+
+
+from sqlalchemy import create_engine
+
+engine = create_engine('sqlite:///database_name_here', echo=True')
+
+Once you've created your database file, you need to create a table in it. First, create a model class that describes the table in the database. All model classes should inherit from the DeclarativeMeta class that is returned by declarative_base():
+
+from sqlalchemy.ext.declarative import declarative_base
+from sqlalchemy import Column, Integer, String, Date
+from datetime import datetime
+
+Base = declarative_base()
+
+
+class Table(Base):
+    __tablename__ = 'table_name'
+    id = Column(Integer, primary_key=True)
+    string_field = Column(String, default='default_value')
+    date_field = Column(Date, default=datetime.today())
+
+    def __repr__(self):
+        return self.string_field
+
+Table is the name of the model class. It is used to access data from the table it describes. The name of the class can be anything.
+__tablename__ specifies the table name in the database.
+id is an integer column of the table; primary_key=True says that this column is the primary key.
+string_field is a string column; default='default_value' says that the default value of this column is 'default_value'.
+date_field is a column that stores the date. SQLAlchemy automatically converts the SQL date into a Python datetime object.
+__repr__ method returns a string representation of the class object. In the ORM concept, each row in the table is an object of a class.
+
+After we've described our table, it's time to create it in our database. All we need is to call the create_all() method and pass engine to it:
+
+Base.metadata.create_all(engine)
+
+Now we can access the database and store data in it. To access the database, we need to create a session:
+
+from sqlalchemy.orm import sessionmaker
+
+Session = sessionmaker(bind=engine)
+session = Session()
+
+To create a row in our table, you need to create an object of the model class and pass it to the add() method:
+
+new_row = Table(string_field='This is a string field!',
+         date_field=datetime.strptime('01-24-2020', '%m-%d-%Y').date())
+session.add(new_row)
+session.commit()
+To get all rows from the table, you can pass the model class to the query() method that selects all rows from the table represented by a model class:
+
+rows = session.query(Table).all()
+The all() method returns all rows from the table as a Python list. Each element of this list is an object of the model class. You can access the row fields by their names:
+
+first_row = rows[0] # In case rows list is not empty
+
+print(first_row.string_field) # Will print the value of the string_field
+print(first_row.id) # Will print the id of the row
+print(first_row) # Will print the string that was returned by the __repr__ method
