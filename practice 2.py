@@ -1,62 +1,16 @@
-import random
 
+from sqlalchemy import create_engine
 
-class River:
-    # list of all rivers
-    all_rivers = []
+engine = create_engine('sqlite:///')
+engine = create_engine('sqlite:///practice.sqlite', echo=True)
 
-    def __init__(self, name, length):
-        self.name = name
-        self.length = length
-        # add current river to the list of all rivers
-        River.all_rivers.append(self)
+connection = engine.connect()
 
-
-volga = River("Volga", 3530)
-seine = River("Seine", 776)
-nile = River("Nile", 6852)
-
-# print all river names
-for river in River.all_rivers:
-    print(river.name)
+Session = sessionmaker(bind=engine)
+session = Session()
 
 # def __str__(self):
 #        return '{} by {}. ${}. [{}]'.format(self.title, self.author, self.price, self.book_id)
-
-# def new_account():
-#     randint = str(random.randint(0000000000, 9999999999))
-#     rand_num = str(random.randint(0000, 9999))
-
-#     while len(randint) != 10:
-#         num = randint
-#         randint = str(random.randint(0000000000, 9999999999))
-#     while len(rand_num) != 4:
-#         pin = rand_num
-#         rand_num = str(random.randint(0000, 9999))
-
-#     checksum = num[-1]
-#     BIN = num[:-2:-1]
-
-#     num = "400000" + BIN
-#     num_list = []
-#     for i in num:
-#         if int(i) * 2 <= 9 and i in num[::2]:
-#             num_list.append(int(i) * 2)
-#         elif int(i) * 2 <= 9 and i in num[::2]:
-#             num_list.append(str((int(i) * 2) - 9))
-#         else:
-#             num_list.append(i)
-
-#     return num_list + [checksum]
-
-
-# def final():
-#     while sum(map(int, new_account())) % 10 != 0:
-#         credit_card = sum(map(int, new_account()))
-#     print(credit_card)
-
-
-# final()
 
 # with open("University Admission Procedure\Stage 4 - Applicant_list_example.txt", "r") as f:
 #     applicants = []
