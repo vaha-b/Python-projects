@@ -1,13 +1,4 @@
 
-from sqlalchemy import create_engine
-
-engine = create_engine('sqlite:///')
-engine = create_engine('sqlite:///practice.sqlite', echo=True)
-
-connection = engine.connect()
-
-Session = sessionmaker(bind=engine)
-session = Session()
 
 # def __str__(self):
 #        return '{} by {}. ${}. [{}]'.format(self.title, self.author, self.price, self.book_id)
