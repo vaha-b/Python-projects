@@ -78,3 +78,27 @@ first_row = rows[0] # In case rows list is not empty
 print(first_row.string_field) # Will print the value of the string_field
 print(first_row.id) # Will print the id of the row
 print(first_row) # Will print the string that was returned by the __repr__ method
+
+
+--------
+
+https://medium.com/analytics-vidhya/building-rest-apis-using-flask-restplus-sqlalchemy-marshmallow-cff76b202bfb
+
+Following are the steps required to create a sample Flask-based API for an Item & Store management application:
+1. Setup and Installation
+2. Integrate Flask-Marshmallow
+3. Integrate Flask-SQLAlchemy
+4. Create Models
+5. Create Schemas
+6. Create Resources
+7. Application Entry Point
+8. Test the API
+
+
+
+
+
+
+
+
+
