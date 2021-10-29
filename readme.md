@@ -10,7 +10,7 @@ I hope that you will enjoy in exploring my code and what I did.
 
 Have a nice day! :D ♡
 
-About hyperskill:
+About Hyperskill:
 
 - Hyperskill is a JetBrains Academy's paid educational platform for future professionals with the opportunity to learn theory and practice by programming their own working applications.
 
