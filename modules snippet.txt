@@ -23,7 +23,8 @@ from sqlalchemy import create_engine
 
 engine = create_engine('sqlite:///database_name_here', echo=True')
 
-Once you've created your database file, you need to create a table in it. First, create a model class that describes the table in the database. All model classes should inherit from the DeclarativeMeta class that is returned by declarative_base():
+Once you've created your database file, you need to create a table in it. First, create a model class that describes the table in the database.
+All model classes should inherit from the DeclarativeMeta class that is returned by declarative_base():
 
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy import Column, Integer, String, Date
