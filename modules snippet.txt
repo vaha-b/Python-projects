@@ -3,6 +3,7 @@ import itertools
 import json
 import re
 import requests
+import typing, mypy
 
 from bs4 import BeautifulSoup
 
@@ -18,7 +19,6 @@ import operator
 import os
 import sys
 import time
-
 
 
 from sqlalchemy import create_engine
