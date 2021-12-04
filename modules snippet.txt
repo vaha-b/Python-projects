@@ -3,14 +3,14 @@ import itertools
 import json
 import re
 import requests
-import typing, mypy
+
 
 from bs4 import BeautifulSoup
-
-
 from collections import defaultdict
+from unidecode import unidecode
 
-
+import unicodedata
+import typing, mypy
 import colorama
 import datetime
 import functools
